@@ -1,0 +1,162 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/thebatman.jpg');
+
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: 14px;
+    position: fixed;
+    
+}
+
+header .logo{
+    margin-left: 3.5%;
+    margin-top: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    width: 7%;
+    height: 7%;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    
+    height: 550px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:10px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 75%;
+    margin-left: 2%;
+}
+
+.box-filme{
+    height: 150px;
+    width: 800px;
+    display: block;
+    cursor: pointer;
+    border-radius: 2%;
+}
+
+
+.carrosel-filmes{
+    margin-top: 7%;
+    margin-left: 2%;
+}
+
+
+.descricao{
+   margin: 20px;
+}
+
+.filme{
+   width: 80.4%;
+   height: 95.4%;
+   margin-top: 4%;
+}
+
+
+
+.sinopse{
+   width: 24%;
+   margin-left: 70%;
+   margin-top: -15%;
+   position: absolute;
+}
+
+.sinopse h1{
+   margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
