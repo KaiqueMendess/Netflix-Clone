@@ -9,8 +9,6 @@ Este projeto é uma recriação do visual da Netflix, com um sistema de login e 
 - **Interface de Sessão de Filmes**: Interface personalizada para exibição de filmes.
 
 ## Estrutura de Pastas e Arquivos
-
-```plaintext
 /
 ├── fonts/
 ├── img/
@@ -29,26 +27,26 @@ Este projeto é uma recriação do visual da Netflix, com um sistema de login e 
 ├── teste.html
 └── verifica_login.php
 
-Tecnologias Utilizadas
+--- Tecnologias Utilizadas
 HTML
 CSS
 PHP
 MySQL
 XAMPP
 
-Como Executar o Projeto
-Clonar o Repositório
+--- Como Executar o Projeto
+1. Clonar o Repositório
 git clone https://github.com/KaiqueMendes/Netflix-Clone.git
 cd Netflix-Clone
 
-Configurar o Banco de Dados
-
+2. Configurar o Banco de Dados
 Importar o arquivo SQL localizado na pasta sql/ para o seu servidor MySQL.
-Configurar o XAMPP
 
+3. Configurar o XAMPP
 Mover os arquivos do projeto para a pasta htdocs do XAMPP.
 Iniciar o Apache e MySQL no painel de controle do XAMPP.
-Acessar o Projeto
+
+4. Acessar o Projeto
 
 Abrir o navegador e acessar http://localhost/Netflix-Clone.
 Contribuição
