@@ -7,7 +7,7 @@ Este projeto é uma recriação do visual da Netflix, com um sistema de login e 
 - **Autenticação de Usuário**: Sistema de login e senha idêntico ao da Netflix, com poucas modificações.
 - **Verificação de Sessão**: Verificação se o usuário está logado para acessar o sistema.
 - **Interface de Sessão de Filmes**: Interface personalizada para exibição de filmes.
-
+```plaintext
 ## Estrutura de Pastas e Arquivos
 /
 ├── fonts/
@@ -26,7 +26,7 @@ Este projeto é uma recriação do visual da Netflix, com um sistema de login e 
 ├── netflix.php
 ├── teste.html
 └── verifica_login.php
-
+```
 --- Tecnologias Utilizadas
 HTML
 CSS
